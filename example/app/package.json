@@ -1,0 +1,13 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "clean": "rm -rf pub && rm -rf *.log && rm -rf names.json",
+      "deploy":"node ../../bin/build.js ./nejpack.conf && puer",
+      "dev":"puer"
+  },
+  "author": "dong.wang",
+  "license": "MIT"
+}
