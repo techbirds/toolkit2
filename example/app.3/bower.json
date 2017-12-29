@@ -1,0 +1,21 @@
+{
+  "name": "nej-lib",
+  "homepage": "https://github.com/techbirds/toolkit2",
+  "authors": [
+    "dong.wang <hzwangdong5@corp.netease.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "nej": "^0.4.6",
+    "regularjs": "^0.5.2"
+  }
+}

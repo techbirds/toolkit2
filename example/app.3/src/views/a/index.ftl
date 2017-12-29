@@ -14,6 +14,7 @@
     <script>
         NEJ.define(['pro/module/app'], function (App) {
             new App().$inject('#app');
+            console.log(1);
         });
     </script>
 </body>
